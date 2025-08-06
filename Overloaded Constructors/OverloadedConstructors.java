@@ -13,10 +13,10 @@ public class OverloadedConstructors {
         System.out.print("Enter a dog name and i will repeat it, if failed so your dog is a stray dog: ");
         String d = in.nextLine();
         if(d.isEmpty()){
-            Dog dog = new Dog();
+            new Dog();
         }
         else{
-            Dog dog = new Dog(d);    
+            new Dog(d);    
         }
         in.close();
     }
